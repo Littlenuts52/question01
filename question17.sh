@@ -1,7 +1,15 @@
 git branch branch1
 git branch branch2
-git cp dir3/bar dir3/bar_copy
-git commit -m "copy bar"    
+cp dir3/bar dir3/bar_copy
+git add *
+git commit -m "copy bar"
+cp dir3/bar dir3/bar_copy
+
+# Stage the changes with Git
+git add dir3/bar_copy
+
+# Commit the changes
+git commit -m "Copy dir3/bar to dir3/bar_copy"    
 git checkout branch1
 git mv dir1/dir2/foo dir1/foo
 rm -r dir/dir2
