@@ -1,7 +1,6 @@
 git branch branch1
 git branch branch2
 git cp dir3/bar dir3/bar_copy
-git add *
 git commit -m "copy bar"    
 git checkout branch1
 git mv dir1/dir2/foo dir1/foo
